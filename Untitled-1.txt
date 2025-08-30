@@ -1,0 +1,2 @@
+mongoDB password: jLqGacWk40Rk91VQ
+mongodb+srv://mdtohin8585:jLqGacWk40Rk91VQ@cluster0.tq4ijsz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

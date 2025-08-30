@@ -1,0 +1,22 @@
+{
+  "name": "food-delivery-demo-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongodb": "^6.19.0",
+    "morgan": "~1.9.1"
+  },
+  "projectConfig": {
+    "mongoConnectionUrl": "mongodb+srv://mdtohin8585:jLqGacWk40Rk91VQ@cluster0.tq4ijsz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "serverIp": "localhost",
+    "serverPort": 3000
+  }
+}
