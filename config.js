@@ -4,12 +4,18 @@ module.exports = {
     mongoConfig: {
         connectionUrl: config.mongoConnectionUrl,
         database: "FoodDeliveryDemo",
-        Collections: {
-            USERS: "users"
+        collections: {
+            USERS: "users",
+            RESTAURANTS: "restaurants",
+            CARTS: "carts",
+            FOODS: "foods",
+            BOOKMARKS: "bookmarks",
+            ORDERS: "orders",
         }
     },
     serverConfig: {
         ip: config.serverIp,
         port: config.serverPort
-    }
+    },
+    tokenSecret: "fooddelivery_secret",
 }
