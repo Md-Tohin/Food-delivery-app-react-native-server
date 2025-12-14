@@ -38,6 +38,7 @@ const getOrders = async ({ username }) => {
     let orders = await MongoDB.db
       .collection(mongoConfig.collections.ORDERS)
       .find({ username })
+      .sort({ createdAt: -1 })
       .toArray();
 
     return {
